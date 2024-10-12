@@ -1,7 +1,7 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* General styles */
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -27,15 +27,15 @@ h3 {
 header {
     background-color: #f15a24;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
-header h1 {
+header+h1 {
     color: #fff;
     font-size: 36px;
 }
 
-/* Navigation */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ nav img {
     cursor: pointer;
 }
 
-/* Sidebar for Save, Share, Print, and Jump */
+
 .sidebar {
     position: fixed;
     top: 200px;
@@ -100,7 +100,7 @@ nav img {
     cursor: pointer;
 }
 
-/* Main content styles */
+
 .recipe-content {
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +127,7 @@ nav img {
     font-size: 16px;
 }
 
-/* Details Section */
+
 .details {
     display: flex;
     justify-content: space-between;
@@ -142,7 +142,6 @@ nav img {
     text-align: center;
 }
 
-/* Ingredients and Directions */
 .ingredients-directions {
     display: flex;
     justify-content: space-between;
@@ -165,7 +164,6 @@ nav img {
     list-style-type: decimal;
 }
 
-/* Side dishes section */
 .side-dishes {
     margin-top: 40px;
     background-color: #d1e7e7;
@@ -197,7 +195,6 @@ nav img {
     color: #f15a24;
 }
 
-/* Footer */
 footer {
     background-color: #f15a24;
     color: #fff;
@@ -220,7 +217,7 @@ footer img {
     height: 30px;
 }
 
-/* SVG Icons */
+
 img[src*="save.svg"],
 img[src*="share.svg"],
 img[src*="print.svg"],
@@ -231,6 +228,6 @@ img[src*="youtube.svg"],
 img[src*="tiktok.svg"],
 img[src*="search.svg"],
 img[src*="logo.svg"] {
-    background: #f15a24;
+    background: #F2F2F2;
     fill: #fff;
 }
