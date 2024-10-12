@@ -1,0 +1,206 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* General styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1e7e7;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    background-color: #f15a24;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f15a24;
+}
+
+.nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.nav li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav img {
+    width: 40px;
+    height: 40px;
+}
+
+#search-bar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#search-bar button {
+    padding: 10px;
+    background-color: #f15a24;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sidebar for Save, Share, Print, and Jump */
+.sidebar {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.sidebar svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Main content styles */
+.recipe-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe-image {
+    flex: 1 1 40%;
+}
+
+.recipe-text {
+    flex: 1 1 55%;
+}
+
+.recipe-text p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Details Section */
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+.details div {
+    flex: 1;
+    text-align: center;
+}
+
+/* Ingredients and Directions */
+.ingredients-directions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ingredients,
+.directions {
+    flex: 1;
+    padding: 10px;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.directions ol {
+    padding-left: 20px;
+}
+
+/* Side dishes section */
+.side-dishes {
+    margin-top: 40px;
+    background-color: #d1e7e7;
+    padding: 20px;
+}
+
+.side-dishes h2 {
+    text-align: center;
+}
+
+.side-dishes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.side-dish {
+    text-align: center;
+    width: 23%;
+}
+
+.side-dish img {
+    width: 100%;
+    height: auto;
+}
+
+.rating {
+    color: #f15a24;
+}
+
+/* Footer */
+footer {
+    background-color: #f15a24;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
