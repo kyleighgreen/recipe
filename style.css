@@ -6,14 +6,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d1e7e7;
+    background-color: rgba(122, 191, 191, .5);
 }
 
 h1,
 h2,
 h3 {
     font-family: 'Bebas Neue', sans-serif;
-    color: #1a1a1a;
+    color: #0D0D0D;
     text-transform: uppercase;
 }
 
@@ -25,13 +25,13 @@ h3 {
 }
 
 header {
-    background-color: #fff;
+    background-color: white;
     padding: 10px;
     text-align: left;
 }
 
 header+h1 {
-    color: #fff;
+    color: white;
     font-size: 36px;
 }
 
@@ -41,7 +41,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #f15a24;
+    background-color: white;
 }
 
 nav ul {
@@ -77,8 +77,8 @@ nav img {
 
 #search-bar button {
     padding: 10px;
-    background-color: #f15a24;
-    color: #fff;
+    background-color: #EB5428;
+    color: #F2F2F2;
     border: none;
     cursor: pointer;
 }
@@ -133,7 +133,7 @@ nav img {
     justify-content: space-between;
     padding: 20px;
     background-color: #000;
-    color: #fff;
+    color: #F2F2F2;
     font-size: 14px;
 }
 
@@ -166,7 +166,7 @@ nav img {
 
 .side-dishes {
     margin-top: 40px;
-    background-color: #d1e7e7;
+    background-color: rgba(122, 191, 191, .5);
     padding: 20px;
 }
 
@@ -192,18 +192,18 @@ nav img {
 }
 
 .rating {
-    color: #f15a24;
+    color: #EB5428;
 }
 
 footer {
-    background-color: #f15a24;
-    color: #fff;
+    background-color: #F2F2F2;
+    color: #EB5428;
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: #fff;
+    color: #F2F2F2;
     text-decoration: none;
     margin-right: 15px;
 }
@@ -229,5 +229,5 @@ img[src*="tiktok.svg"],
 img[src*="search.svg"],
 img[src*="logo.svg"] {
     background: #F2F2F2;
-    fill: #fff;
+    fill: #EB5428;
 }
