@@ -1,6 +1,9 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
+html {
+    background-color: rgba(122, 191, 191, .5);
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
